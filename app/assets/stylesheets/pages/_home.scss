@@ -1,1 +1,85 @@
 // Specific CSS for your home-page
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 125px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: black;
+  // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+hr {
+  width: 200px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+h4 {
+  text-align: center;
+}
+ .definition {
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.def-container {
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.dictionary {
+
+}
+
+ .explain {
+
+}
+
+.pilares {
+  color: white;
+  background-color: $ACTAblue;
+  text-align: center;
+  padding: 100px 0;
+} i {
+  font-size: 96px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+
+.donations {
+  background-color: white;
+  text-align: center;
+  padding: 100px 0;
+} h4 {
+  color: $ACTAorange;
+} h5 {
+  color: $ACTAorange;
+}
+
+
+
+.library {
+  color: white;
+  background-color: $ACTAblue;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.voluntarios {
+  background-color: white;
+  padding: 100px 0;
+} h5 {
+  text-align: center;
+}
+
+.voluntarios h2 {
+  text-align: center;
+}
