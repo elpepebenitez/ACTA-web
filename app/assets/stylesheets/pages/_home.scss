@@ -2,7 +2,7 @@
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 125px 0;
+  padding: 100px 0;
 }
 
 .banner h1 {
@@ -30,38 +30,50 @@ h4 {
 }
 
 .def-container {
-  height: 400px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .dictionary h2 {
-  position: absolute;
-  top: 135px;
-  left: 50px;
+  padding-top: 50px;
+  padding-left: 40px;
 }
 
 .dictionary #noun {
   position: absolute;
-  top: 148px;
-  left: 150px;
+  top: 63px;
+  left: 160px;
 }
 
-.dictionary span {
-  position: absolute;
-  top: 200px;
-  left: 50px;
+.dictionary p {
+  padding-top: 16px;
+  padding-left: 40px;
 }
 
 .dictionary ol {
-  position: absolute;
-  top: 250px;
-  left: 50px;
+  padding-top: 16px;
+  padding-left: 50px;
 }
 
+.dictionary li {
+  padding-bottom: 8px;
+}
+
+ .explain {
+  font-size: 14px;
+}
+
+ .explain h6 {
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  font-weight: bold;
+}
 
  .explain p {
-  font-size: 14px;
+  color: $ACTAorange;
+  font-weight: bold;
+  padding-right: 16px;
 }
 
 .pilares {
