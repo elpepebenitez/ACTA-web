@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   get "/about" => "pages#about"
   get "/contact" => "pages#contact"
 
+  resources :contacts, only: [ :create ]
+
 end

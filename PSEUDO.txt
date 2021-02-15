@@ -1,0 +1,22 @@
+What do I have to do?
+
+[ ✅ ] Create User Mailer
+[ ✅ ] Create contact mailer action with contact info
+[ ✅ ] Set default email from where people will be receiving emails
+[ ✅ ] Create Contact Model
+[ ✅ ] Create validations for Contact Model
+[ ✅ ] Create Contact create route
+[ ✅ ] Generate Contact controller
+[ ✅ ] Create create action in Contact controller + strong params
+[ ✅ ] Put link to contact create action in landing
+[ ✅ ] Create contact_notification mailer action
+[ ✅ ] Create users for jd (confirm their emails)
+[ ✅ ] In the create contact controller call both mailers
+[ ✅ ] Include letter_opener gem
+
+PRODUCTION
+
+[ ]
+[ ]
+[ ]
+[ ]
