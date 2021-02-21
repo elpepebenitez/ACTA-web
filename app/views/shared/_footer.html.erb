@@ -1,26 +1,61 @@
 <div class="footer">
-  <span>Contáctanos</span>
-  <br>
-  <span>info@actapanama.org</span>
-  <br>
-  <div class="footer-links">
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
+  <div class="footer-content container">
+    <div class="footer-register">
+    <%= link_to "CONTÁCTANOS","/contact",id:"footer-button"%>
+    <h1 id="footer-register-title">Contacta con nosotros!</h1>
   </div>
-  <br>
-  <span>309-8968</span>
+    <div class="footer-links">
+      <div>
+        <h1>acesso directos</h1>
+        <ul>
+          <%if current_page?(root_path) %>
+            <li><a href="#acta">acta</a></li>
+            <li><a href="#pilares">pilares</a></li>
+            <li><a href="#participa">participa</a></li>
+            <li><a href="#apoyanos">apóyanos</a></li>
+          <%else%>
+            <li><%= link_to "acta","/#acta"%></li>
+            <li><%= link_to "pilares","/#pilares"%></li>
+            <li><%= link_to "participa","/#participa"%></li>
+            <li><%= link_to "apóyanos","/#apoyanos"%></li>
+          <% end %>
+           </ul>
+      </div>
+
+      <div>
+        <h1>Links</h1>
+        <ul>
+          <li><%= link_to "login","/users/sign_in"%></li>
+          <li><%= link_to "galería","/galeria"%></li>
+          <li><%= link_to "miembros","/miembros"%></li>
+          <li><%= link_to "nosotros","/nosotros"%></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <hr/>
+  
+    <div class="footer-social">
+      <ul>
+        <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_facebook-256.png" alt="facebook"/></a></li>
+        <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_twitter-256.png" alt="twitter"/></a></li>
+        <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/instagram-256.png" alt="instagram"/></a></li>
+        <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo-whatsapp-256.png" alt="whatsApp"/></a></li>
+      </ul>
+
+    </div>
+   </div>
+</div>
+<div class="footer-bottom">
+  <span>
+  <span style="color:#ccc;">© 2021 copyright: </span>ACTA.com
+  </span>
 </div>
 
-
 <!-- <footer class="footer">
-  <div class="container">
-    <span>Contáctanos</span>
-    <br>
-    <span>info@actapanama.org</span>
-    <br>
-    <span>Redes</span>
-    <br>
+
+ <span>Contáctanos</span>
+  <br>
+  <span>info@actapanama.org</span>
     <span>309-8968</span>
-    <br>
-  </div>
-</footer> -->
+    -->
