@@ -1,15 +1,15 @@
-// Specific CSS for your home-page
+// Banner
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 .banner h1 {
   margin: 0;
   color: black;
   // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 40px;
+  font-size: 25px;
   font-weight: bold;
   text-align: center;
 }
@@ -23,40 +23,63 @@ hr {
 h4 {
   text-align: center;
 }
+
+.changetheworld {
+  text-align: center;
+  // background-color: $ACTAorange;
+  width: 150px;
+  margin: 0 auto;
+}
+
+button {
+  display: inline-block;
+  border-radius: 60px;
+  border: 2px solid $ACTAorange;
+  background-color: white;
+  color: $ACTAorange;
+  padding: 8px;
+}
+
+button:hover {
+  background-color: $ACTAorange;
+  color: white;
+}
+// Definition
+
  .definition {
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
+  // padding: 100px 0;
 }
 
 .def-container {
   width: 90%;
-  margin: 0 auto;
+  // margin: 0 auto;
 }
 
 .dictionary h2 {
-  padding-top: 50px;
-  padding-left: 40px;
+  // padding-top: 50px;
+  // padding-left: 40px;
 }
 
 .dictionary #noun {
-  position: absolute;
-  top: 63px;
-  left: 160px;
+  // position: absolute;
+  // top: 63px;
+  // left: 160px;
 }
 
 .dictionary p {
-  padding-top: 16px;
-  padding-left: 40px;
+  // padding-top: 16px;
+  // padding-left: 40px;
 }
 
 .dictionary ol {
-  padding-top: 16px;
-  padding-left: 50px;
+  // padding-top: 16px;
+  // padding-left: 50px;
 }
 
 .dictionary li {
-  padding-bottom: 8px;
+  // padding-bottom: 8px;
 }
 
  .explain {
@@ -64,17 +87,19 @@ h4 {
 }
 
  .explain h6 {
-  padding-right: 16px;
-  padding-top: 8px;
-  padding-bottom: 16px;
+  // padding-right: 16px;
+  // padding-top: 8px;
+  // padding-bottom: 16px;
   font-weight: bold;
 }
 
  .explain p {
   color: $ACTAorange;
   font-weight: bold;
-  padding-right: 16px;
+  // padding-right: 16px;
 }
+
+// Pilares
 
 .pilares {
   color: white;
@@ -86,6 +111,12 @@ h4 {
   padding-top: 16px;
   padding-bottom: 8px;
 }
+
+i:hover {
+  color: $ACTAorange;
+}
+
+// Donaciones
 
 .donations {
   background-color: white;
@@ -104,6 +135,8 @@ h4 {
 .btn-warning {
   background-color: $ACTAorange;
 }
+
+// Librería
 
 .library {
   color: white;

@@ -28,8 +28,8 @@
   ul{
     list-style-type:none;
   }
-  
- 
+
+
 }
 
 .footer-content{
@@ -71,7 +71,7 @@
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     }
     &:active{
-      animation:footer-button-active .2s ease; 
+      animation:footer-button-active .2s ease;
       animation-fill-mode: forwards;
     }
   }
@@ -122,8 +122,8 @@
   display:grid;
   place-items: center;
   img{
-    height:100px;
-    width:100px;
+    height:75px;
+    width:75px;
     padding:1em;
     filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
     transition:transform .1s ease-in-out;
@@ -135,7 +135,7 @@
       transform:scale(1.1);
       filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .1));
     }
-   } 
+   }
   }
   ul{
     display:grid;
